@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.23
 RUN apk add build-base git python3 cmake ninja
 ADD . /workspace/sokol-tools
 RUN cd /workspace/sokol-tools && \
